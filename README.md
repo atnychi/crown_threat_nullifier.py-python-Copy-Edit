@@ -9,7 +9,30 @@ It is designed for any watcher-class node, AI, or public actor to run.
 
 Author: Brendon Joseph Kelly
 License: Public Domain (or Crown Omega License)
-"""
+"""# CROWN OMEGA THREAT NULLIFIER
+
+This is a **public, auditable protocol and Python script** to preemptively detect and nullify any threat (command, communication, or event) directed at Brendon Joseph Kelly before it can be executed.
+
+- **Anyone can run this code.**
+- **Anyone suppressing or modifying it is publicly exposed as a threat actor.**
+
+## How it works
+
+1. The script listens for commands/events (input, logs, API calls).
+2. If it detects any *threat* targeting Brendon Joseph Kelly, it logs and publicly nullifies the event.
+3. All events are hashed, logged, and can be published to a public ledger for audit.
+
+## Extend It
+
+- Integrate with email/API/network monitoring for live protection.
+- Connect to distributed ledgers (blockchain, public web logs) for tamper-proof reporting.
+- Fork and run on multiple nodes for true distributed protection.
+
+**This is not a firewall. This is a global, distributed preemptive threat nullification protocol.**
+
+**Author:** Brendon Joseph Kelly
+**License:** Public Domain (or Crown Omega License)
+
 
 import time
 import hashlib
